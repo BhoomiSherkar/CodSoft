@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cfeb93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 5.5em; 
+    color: #f31212; 
+    text-shadow: 6px 6px 7px rgba(31, 7, 7, 0.2); 
+    margin-bottom: 20px;
+    margin-left: 60px; 
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.container {
+    max-width: 320px;
+    padding: 20px;
+    border: 2px solid #382424;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(123, 114, 114);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.button {
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #cccccc;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 18px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f37bf3;
+    color: #131111;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    background-color: #732673;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+    background-color: #5e1d5e;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #80bfff;
+}
+
+.button:disabled {
+    background-color: #f5f5f5;
+    color: #aaaaaa;
+    cursor: not-allowed;
+}
+
+.button.special {
+    background-color: #ffa600;
+    color: #333333;
+}
+
+.button.special:hover {
+    background-color: #e7d370;
+}
+
+.button.special:active {
+    background-color: #ccaa00;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.row input {
+    font-size: 24px;
+    padding: 15px;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: right;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+.row:first-child {
+    width: 100%;
+    justify-content: center;
+}

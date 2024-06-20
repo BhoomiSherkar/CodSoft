@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                <a href="#"><i class='bx bx-restaurant'></i></a>
+                Undhiyu
+            </div>
+
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Product</a>
+                <a href="#">Info</a>
+            </div>
+
+            <div class="icon">
+                <a href="#"><i class='bx bx-search' ></i></a>
+                <a href="#"><i class='bx bxs-user-account' ></i></a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="left">
+                <div class="star">
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                    <i class='bx bx-star'></i>
+                </div>
+                <div class="h-text">
+                    
+                    <h1>Traditional Gujarati Delicacy</h1>
+                    <p>
+                        Undhiyu is a hearty and flavorful Gujarati mixed vegetable dish, typically prepared in winter. It features a medley of vegetables like purple yam, potatoes, green beans, and eggplant, cooked with a blend of spices. The unique flavor comes from fenugreek dumplings (methi muthiyas), adding texture. Slow-cooked in an earthen pot, the spices meld beautifully with the vegetables, creating a rich, aromatic dish. Often enjoyed with puris or rotis, Undhiyu is a staple at festive occasions in Gujarat.
+                    </p>
+                    <h2>Celebrate the Flavors of Gujarat,</h2>
+                    <button>View the Menu <i class='bx bx-right-arrow' ></i>
+                    </button>
+                    <div class="f-icon">
+                        <div class="line"></div>
+                        <i class='bx bxl-facebook' ></i>
+                        <i class='bx bxl-instagram' ></i>
+                        <i class='bx bxl-whatsapp' ></i>
+                        <i class='bx bxl-twitter' ></i>
+
+                    </div>
+                        
+                    </f-icon>
+                </div>
+            </div>
+            <div class="center">
+              <div>
+                <img src="Assets/undhiyu3.jpeg" alt="">
+              </div>
+              <div>
+                <img src="Assets/undhiyu1.jpeg" alt="">
+              </div>
+              <div>
+                <img src="Assets/undhiyu2.jpeg" alt="">
+             </div>
+            </div>
+            <div class="right">
+                <div class="card-container">
+                    <div class="card1">
+                        <img src="Assets/card1.jpeg" alt="Image 1">
+                        <p>Card 1 description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ullam.</p>
+                    </div>
+                    <div class="card2">
+                        <img src="Assets/card2.jpeg" alt="Image 2">
+                        <p>Card 2 description Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quae?</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+    <script>$('.center').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false,
+        dots:true,
+        fade:true,
+        autoplay:true,
+        autoplayspeed:2000,
+      });
+    </script>
+    <script>$('.card1').tilt({
+        scale: 1.2
+    })</script>
+    <script>$('.card2').tilt({
+        scale: 1.2
+    })</script>
+</body>
+
+</html>
